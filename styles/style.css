@@ -1,0 +1,77 @@
+/* font family */
+
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* banner styles */
+
+.banner {
+    height: 809px;
+    width: 1350px;
+    text-align: right;
+    background-image: url('../images/banner/banner2.png');
+    
+}
+
+.banner-section {
+    /* margin-top: 200px; */
+    margin-right: 200px;
+    margin-left: 700px;
+}
+
+.banner-title {
+
+    font-size: 65px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.banner-description {
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.buttton {
+    height: 64px;
+    width: 180px;
+    border-radius: 5px;
+    background: #F15B22;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 20px 25px;
+}
+
+/* mid section */
+.failure{
+    margin-top: 200px;
+    margin-right: 200px;
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-around;
+}
+
+.failure-title{
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.failure-container{
+    margin-left: 100px;
+}
+
+.failure-spans{
+    margin-top: 16px;
+}
+.spans{
+    font-size: 16px;
+    color: #444343;
+}
