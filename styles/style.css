@@ -13,11 +13,12 @@
     width: 1350px;
     text-align: right;
     background-image: url('../images/banner/banner2.png');
-    
+    position: relative;
 }
 
 .banner-section {
-    /* margin-top: 200px; */
+    position: absolute;
+    margin-top: 200px;
     margin-right: 200px;
     margin-left: 700px;
 }
@@ -50,9 +51,9 @@
 
 /* mid section */
 .failure{
-    margin-top: 200px;
+    margin-top: 150px;
     margin-right: 200px;
-    margin-left: 200px;
+    margin-left: 180px;
     display: flex;
     align-items: center;
     text-align: left;
@@ -65,13 +66,15 @@
 }
 
 .failure-container{
-    margin-left: 100px;
+    margin-left: 87px;
 }
 
 .failure-spans{
     margin-top: 16px;
+    
 }
 .spans{
     font-size: 16px;
     color: #444343;
+    display: block;
 }
