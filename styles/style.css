@@ -1,6 +1,6 @@
 /* font family */
 
-*{
+* {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     font-family: 'Poppins', sans-serif;
@@ -13,6 +13,7 @@
     width: 1350px;
     text-align: right;
     background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
     position: relative;
 }
 
@@ -50,7 +51,7 @@
 }
 
 /* mid section */
-.failure{
+.failure {
     margin-top: 150px;
     margin-right: 200px;
     margin-left: 180px;
@@ -60,21 +61,135 @@
     justify-content: space-around;
 }
 
-.failure-title{
+.failure-title {
     font-size: 45px;
     font-weight: 700;
 }
 
-.failure-container{
+.failure-container {
     margin-left: 87px;
 }
 
-.failure-spans{
+.failure-spans {
     margin-top: 16px;
-    
 }
-.spans{
+
+i{
+    color: #16D887;
+}
+
+.spans {
     font-size: 16px;
     color: #444343;
     display: block;
+}
+
+/* plans section */
+.my-plans {
+    text-align: center;
+    margin-top: 130px;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+
+}
+
+.plan-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin-top: 30px;
+    margin-bottom: 16px;
+}
+
+.plan-description {
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+/* gradient section */
+.gradient-section{
+    margin: 20px 150px;
+    height: 300px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: left right, left right;
+    background-size: cover, cover;
+    border-radius: 10px;
+    position: relative;
+}
+.gradient{
+    top: 65px;
+    position: absolute;
+    left: 60px;
+    color: aliceblue;
+}
+.gradient-title{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.button-2 {
+    height: 64px;
+    width: 160px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    color: #F15B22;
+    font-size: 20px;
+    font-weight: 600;
+    border: 0;
+    padding: 20px 25px;
+}
+
+/* footer styles */
+.footer-form{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.footer{
+    position: absolute;
+    height: 575px;
+    width: 1350px;
+    background-color: #151414;
+    margin-top: 130px;
+    
+
+}
+.future{
+    color: white;
+    margin: 130px 500px 130px 230px ;
+}
+.future-title{
+    color: #F8F8F8;
+    font-size: 45px;
+    font-weight: 700;
+}
+.future-description{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.email{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+.phone{
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 32px;
+}
+.subscribe-form{
+    margin-top: 130px;
+    margin-right: 230px;
+}
+.subscribe-title{
+    
 }
